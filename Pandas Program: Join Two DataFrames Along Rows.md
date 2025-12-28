@@ -19,14 +19,21 @@ To write a Python program using Pandas to **join two DataFrames along rows** (ro
 ## 💻 Program
 ```
 import pandas as pd
-a=pd.DataFrame(eval(input()))
-b=pd.DataFrame(eval(input()))
+
+d1 = eval(input())
+d2 = eval(input())
+
+df1 = pd.DataFrame(d1)
+df2 = pd.DataFrame(d2)
+
 print("Original DataFrames:")
-print(a)
-print(b)
-merged_data = pd.merge(a,b,on='student_id')
-print("Merged data (inner join):")
-print(merged_data)
+print(df1)
+print("-------------------------------------")
+print(df2)
+result = pd.concat([df1, df2], axis=1)
+
+print("\nJoin the said two dataframes along columns:")
+print(result)
 ```
 ## Output
 <img width="1421" height="828" alt="image" src="https://github.com/user-attachments/assets/8375a6be-5a0d-40ad-b4b5-9bdf9ef551c7" />

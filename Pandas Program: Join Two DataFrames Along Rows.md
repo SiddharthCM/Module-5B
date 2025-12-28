@@ -36,7 +36,8 @@ print("\nJoin the said two dataframes along columns:")
 print(result)
 ```
 ## Output
-<img width="1421" height="828" alt="image" src="https://github.com/user-attachments/assets/8375a6be-5a0d-40ad-b4b5-9bdf9ef551c7" />
+<img width="1080" height="804" alt="530398162-90539a0b-58c0-4430-882a-43d8c5635f1e" src="https://github.com/user-attachments/assets/56516c56-9e50-4061-be7b-412c038b5b62" />
+
 
 ## Result
 Thus,the given Python Program has been executed successfully.
